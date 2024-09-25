@@ -1,12 +1,5 @@
-import almacen.*
-import cosas.*
-import ruta.*
-//probar
-
-
-
-object camion {
-	const property cosas = #{}
+class Camion {
+  const property cosas = #{}
 	
 	method cargar(unaCosa) {
 		cosas.add(unaCosa)
@@ -67,4 +60,3 @@ object camion {
 	}
    }
 }
-
