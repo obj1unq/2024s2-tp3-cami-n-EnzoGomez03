@@ -1,0 +1,17 @@
+import classes.*
+import camion.*
+import cosas.*
+
+describe "testeo con classes" {
+  const camion1 = new Camion()
+  
+  method initialize(){
+    camion1.agregar(bumblebee)
+  }
+  
+  test "camion creado" {
+    
+    camion1.cargar(bumblebee)
+    assert.equals(bumblebee, camion1.cosaMasPesada())
+  }
+}
